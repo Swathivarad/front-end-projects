@@ -1,0 +1,28 @@
+ol{
+    border: 2px solid;
+    height: 50px;
+    padding: 0%;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+ol li{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+section{
+    border: 5px solid;
+    height: 800px;
+    background-image: linear-gradient(pink,green,blue,crimson,orange,yellow);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 50px;
+
+}

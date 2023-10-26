@@ -1,0 +1,46 @@
+@import url("./task5main.css");
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: spotify-circular,Arial, Helvetica, sans-serif;
+}
+
+#nav{
+   /* border: 2px solid red; */
+    height: 70px;
+    background-color: #000;
+
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-nav span svg{
+    margin-left: 50px;
+    height: 30px;
+    fill: #fff;
+} 
+
+#sub-nav ol{
+    padding: 0%;
+    margin-left: 50PX;
+    list-style: none;
+    /* border: 2px solid; */
+    display: inline-flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+}
+#sub-nav ol li{
+    font-weight: 600px;
+    font-size: 15px;
+}
+
