@@ -1,0 +1,353 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    border: 2px solid;
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/fe1147dd-78be-44aa-a0e5-2d2994305a13/IN-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    /* border: 2px solid white; */
+    height: 90px;
+}
+#nav ol{
+    list-style: none;
+    width: 100%;
+}
+#nav li svg{
+    height: 2.5em;
+    fill: red;
+    margin-left: 11%;
+    margin-top: 30px;
+    
+}
+#nav li+li button{
+    border: 2px solid;
+    height: 30px;
+    width: 8%;
+    margin-left: 75%;
+    border-radius: 5px;
+    position: absolute;
+    top: 4.5%;
+    /* opacity: 0; */
+    background-color: black;
+    color: white;
+    
+}
+#nav li+li button svg{
+    /* border: 2px solid; */
+    height: 2em;
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+    
+    
+}
+#nav li+li button span{
+    /* border: 2px solid; */
+    position: absolute;
+    bottom: 3px;
+    right:25px;
+    font-size: 17px;
+    
+}
+#nav ol li+li+li button{
+    height: 30px;
+    width: 5%;
+    border-radius: 5px;
+    margin-left:85%;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+#nav1 h1{
+    /* border: 2px solid; */
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+#nav1 span{
+    margin-left: 30%;
+}
+#nav1 p{
+    /* border: 2px solid; */
+    width: 50%;
+    position: absolute;
+    top: 58%;
+    left: 37%;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+#nav1 h3{
+    width: 50%;
+    position: absolute;
+    top: 65%;
+    left: 26%;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+#nav1 div{
+border: 2px solid white;
+height: 50px;
+width: 30%;
+position: absolute;
+top: 73%;
+left: 26%;
+color: white;
+}
+#nav1 div input{
+    /* border: 2px solid white;  */
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    opacity: 0.1;
+ }
+ #nav1 button{
+    height: 40px;
+    width: 10%;
+    position: absolute;
+    top: 74%;
+    left: 59%;
+    background-color: red;
+    color: white;
+ }
+ #main{
+    border: 2px solid;
+    height: 550px;
+    background-color: black;
+    z-index: inherit;
+ }
+ #main1{
+    /* border: 2px solid white; */
+    height: 300px;
+    position: absolute;
+    top: 120%;
+    left: 130px;
+ }
+ #main1 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 40px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+ }
+ #main1 p{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 40px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    line-height: 60px;
+ }
+ #main2 img{
+    margin-left: 50%;
+ }
+ #main2 video{
+    height: 250px;
+    position: absolute;
+    top: 114%;
+    left: 56%;
+ }
+ #de{
+  height: 10px;
+  background-color: rgb(125, 125, 125);
+ }
+ #main3{
+    border: 2px solid;
+    height: 550px;
+    background-color: black;
+ }
+ #main3 img{
+    height: 420px;
+    position: absolute;
+    top: 180%;
+    left: 14%;
+ }
+ #main3_1{
+   border: 2px solid white;
+   height: 110px;
+   width: 20%;
+   border-radius: 7px;
+   position: absolute;
+   top: 220%;
+   left: 22%;
+   background-color: black;
+   
+ }
+ #main3_1 img{
+    height:100px ;
+    position: absolute;
+    top: 6%;
+   left: 8%;
+ }
+ .demo{
+    /* border: 2px solid; */
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 30px;
+    left: 110px; 
+ }
+ .demo1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 50px;
+    left: 110px; 
+ }
+#demo img{
+    /* border: 2px solid white; */
+    height: 50px;
+    position: absolute;
+    top: 29px;
+    left: 80%;
+ }
+ #main3 h2{
+    font-size: 2.8em;
+    font-weight: 1000;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+ }
+ #main3 p{
+    font-size: 1.6em;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+ }
+ #main4{
+    border: 2px solid;
+    height: 500px;
+    background-color: black;
+ }
+ #main4 h2{
+    font-size: 3em;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 270%;
+    left: 14%;
+ }
+ #main4 p{
+    font-size: 1.5em;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 280%;
+    left: 14%;
+ }
+ #main4 img{
+    height: 55%;
+    position: absolute;
+    top: 260%;
+    left: 50%;
+ }
+ #main4 video{
+    height: 180px;
+    position: absolute;
+    top: 265%;
+    left: 57%;
+ }
+ #main5{
+    border: 2px solid;
+    background-color: black;
+    height: 500px;
+ }
+ #main5 img{
+    height: 50%;
+    position: absolute;
+    top: 330%;
+    left: 20%;
+ }
+ #main5 h2{
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: absolute;
+    top: 350%;
+    left: 54%;
+    color: white;
+ }
+ #main5 p{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: absolute;
+    top: 360%;
+    left: 54%;
+    color: white;
+ }
+ #main6{
+   border: 2px solid;
+   height: 500px;
+   background-color: black;
+ }
+ #main6 h2{
+   font-size: 3.2em;
+   font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: 900;
+   margin-left: 20%;
+   color: white;
+ }
+.accordion-item{
+   background-color: black;
+   color: white;
+   margin-right: 20%;
+}
+#accordionExample{
+   background-color: black;
+   color: white;
+}
+#main7{
+   border: 2px solid;
+   height: 500px;
+   background-color: black; 
+}
+#main7 div{
+   font-size: 20px;
+   color: white;
+}
+#main7 ol{
+   list-style: none;
+   margin-top: 40px;
+   margin-left: 50px;
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#main7 button{
+   border-radius: 5px;
+    transform: translatex(90px);
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+#demo{
+   font-size: 20px;
+   opacity: 0.4;
+   transform: translate(90px,40px);
+}
